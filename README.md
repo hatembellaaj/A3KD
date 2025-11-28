@@ -69,6 +69,21 @@ This will:
 
 Wait until the logs show that the backend is running on `http://0.0.0.0:8000`.
 
+### 3.2.1 Run the lightweight API locally (port 8570)
+
+If you want to try the API without Docker, you can start the bundled FastAPI
+application directly on port **8570**:
+
+```bash
+pip install -r requirements.txt
+uvicorn main:app --host 0.0.0.0 --port 8570
+```
+
+Then open:
+
+- Swagger docs: <http://localhost:8570/docs>
+- Root endpoint: <http://localhost:8570/>
+
 ### 3.3 Open the Web UI
 
 Open your browser at:
