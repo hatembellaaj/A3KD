@@ -7,11 +7,11 @@ from a3kd.models.domain import AssistantSummary, Experiment, ExperimentConfig, M
 
 
 TEACHER_MODELS = [
-    ModelInfo(id="resnet110", name="ResNet110"),
+    ModelInfo(id="resnet110", name="ResNet110 (teacher, CIFAR-100)"),
 ]
 
 STUDENT_MODELS = [
-    ModelInfo(id="resnet8", name="ResNet8"),
+    ModelInfo(id="resnet8", name="ResNet8 (student, CIFAR-100)"),
 ]
 
 
